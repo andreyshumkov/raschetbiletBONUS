@@ -3,10 +3,11 @@ public static void main(String[] args) {
     boolean ticket = true;
 
     int percent;
-    if (ticket)  percent = 5;
-     else percent = 0;
+    if (ticket) percent = 5;
+    else percent = 0;
 
-   int bonus =  (price * percent / 100);
+    int bonus = (price * percent / 100);
 
-    System.out.println( "Бонусные мили:" + bonus);
+    System.out.println("Бонусные мили:" + bonus);
 }
+//1
